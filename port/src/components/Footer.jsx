@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="inline-block relative">
               <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal ">
                 <HashLink
-                  to="http://localhost:5173/#testimonials"
+                  to="#testimonials"
                   className="inline-block h-full w-full  hover:text-custom-green">
                   Testimonials
                 </HashLink>
@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="inline-block relative">
               <li className="relative z-10 text-sm font-medium lg:text-base lg:font-normal lg: hover:text-custom-green">
                 <HashLink
-                  to="http://localhost:5173/#experience"
+                  to="#experience"
                   className="inline-block h-full w-full  hover:text-custom-green">
                   Experience
                 </HashLink>
