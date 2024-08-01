@@ -8,11 +8,6 @@
       "src": "backend/index.js",
       "use": "@vercel/node"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/send-email",
-      "destination": "/api/send-email"
-    }
+  ]
   ]
 }
