@@ -42,7 +42,7 @@ const sendEmail = async (from, to, subject, text, html) => {
 };
 
 // Route to handle form submissions and send emails
-app.post("/send-email", async (req, res) => {
+app.post("https://port2-seven.vercel.app/send-email", async (req, res) => {
   const { name, email, question } = req.body;
   console.log(req.body);
   // Customize the email details
