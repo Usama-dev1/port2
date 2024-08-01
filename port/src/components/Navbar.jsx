@@ -158,7 +158,7 @@ const Navbar = () => {
             <div className="inline-block relative">
               <li className="relative">
                 <HashLink
-                  to="http://localhost:5173/#testimonials"
+                  to="#testimonials"
                   className="inline-block h-full w-full   hover:text-custom-green">
                   Testimonials
                 </HashLink>
@@ -168,7 +168,7 @@ const Navbar = () => {
             <div className="inline-block relative">
               <li className="relative">
                 <HashLink
-                  to="http://localhost:5173/#experience"
+                  to="#experience"
                   className="inline-block h-full w-full  hover:text-custom-green">
                   Experience
                 </HashLink>
