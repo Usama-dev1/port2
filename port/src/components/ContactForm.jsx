@@ -19,7 +19,7 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true); // Disable the button when form is submitted
     try {
-      const response = await fetch("/send-email", {
+      const response = await fetch("https://port2-seven.vercel.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
