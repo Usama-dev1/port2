@@ -11,8 +11,8 @@
   ],
   "rewrites": [
     {
-      "source": "/send-email",
-      "destination": "/send-email"
+      "source":"/send-email",
+      "destination":"/send-email"
     }
   ]
 }
