@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "port/dist/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "backend/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/send-email",
+      "destination": "/send-email"
+    }
+  ]
+}
