@@ -12,10 +12,10 @@ const Projects = () => {
   const projects=[
     {
      projectImg:project1,
-     projectTitle:"Project Title1",
-     projectDesc:"Project Description1",
+     projectTitle:"Ecom store Electronic gadgets",
+     projectDesc:"This project is made in wordpress",
      projectExtra:"Project Extra info URL 1",
-     projectUrl:"Project URL 1"
+     projectUrl:"https://xstore.8theme.com/elementor/demos/minimal-electronics/"
     },
     {
      projectImg:project2,
