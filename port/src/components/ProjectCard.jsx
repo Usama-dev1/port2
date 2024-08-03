@@ -10,7 +10,7 @@ const ProjectCard = ({projectImg,
   {/* <!-- Project Image --> */}
   <div className="w-full lg:relative lg:pb-2/3">
     <img
-      className="w-full object-fit shadow-lg md:w-full lg:h-full"
+      className="w-full object-cover shadow-lg md:w-full lg:h-full"
       src={projectImg}
       alt="Example page from project"
     />
