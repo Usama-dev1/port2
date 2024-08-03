@@ -12,8 +12,8 @@ const Projects = () => {
   const projects=[
     {
      projectImg:project1,
-     projectTitle:"WordPress-based eCommerce store designed for selling electronic gadgets",
-     projectDesc:"he store utilizes plugins like WooCommerce for eCommerce functionality, Elementor for page building, and WPForms for contact forms. Features include a responsive design, easy navigation, and various payment options",
+     projectTitle:"WordPress-based eCommerce store for selling electronic gadgets",
+     projectDesc:"The store utilizes plugins like WooCommerce for eCommerce functionality, Elementor for page building, and WPForms for contact forms. Features include a responsive design, easy navigation, and various payment options",
      projectExtra:"eCommerce Store",
      projectUrl:"https://xstore.8theme.com/elementor/demos/minimal-electronics/"
     },
