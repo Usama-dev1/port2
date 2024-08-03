@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
      projectImg:project3,
-     projectTitle:"Project Title3",
+     projectTitle:"Custom Made Cleaning Website",
      projectDesc:"Project Description 3",
      projectExtra:"Project Extra info URL 3",
      projectUrl:"Project URL 3"
