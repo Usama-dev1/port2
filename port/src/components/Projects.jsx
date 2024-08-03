@@ -43,7 +43,7 @@ const Projects = () => {
           {/* <!-- Heading and description --> */}
           <div className="relative text-center px-2">
             <h2 className="relative text-2xl font-bold z-10 md:text-3xl lg:text-4xl">
-              Several Projects I Enjoyed
+              Project Portfolio
             </h2>
             <p className="relative text-sm mx-auto mt-5 z-10 lg:mt-6 lg:text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida
