@@ -46,8 +46,7 @@ const Projects = () => {
               Project Portfolio
             </h2>
             <p className="relative text-sm mx-auto mt-5 z-10 lg:mt-6 lg:text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida
-              rhoncus volutpat congue mattis sed mollis mollis.
+            Some eCommerce and Custom build Project Deleivered for Clients 
             </p>
 
             {/* <!-- Green bubble --> */}
