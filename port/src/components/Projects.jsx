@@ -12,17 +12,17 @@ const Projects = () => {
   const projects=[
     {
      projectImg:project1,
-     projectTitle:"WordPress-based eCommerce store for selling electronic gadgets",
+     projectTitle:"WordPress eCommerce store for selling electronic gadgets",
      projectDesc:"The store utilizes plugins like WooCommerce for eCommerce functionality, Elementor for page building, and WPForms for contact forms. Features include a responsive design, easy navigation, and various payment options",
      projectExtra:"eCommerce Store",
      projectUrl:"https://xstore.8theme.com/elementor/demos/minimal-electronics/"
     },
     {
      projectImg:project2,
-     projectTitle:"Project Title2",
-     projectDesc:"Project Description 2",
-     projectExtra:"Project Extra info URL 2",
-     projectUrl:"Project URL 2"
+     projectTitle:"Shopify Fast Food Ordering Website",
+     projectDesc:"This project is full shopify food ordering website template made in shopify where the client can add his menu and his customers can order direclty from the website  Enter password as 1 to veiw the template",
+     projectExtra:"Shopify Store",
+     projectUrl:"https://demo-suruchi-food.myshopify.com/"
     },
     {
      projectImg:project3,
