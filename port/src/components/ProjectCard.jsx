@@ -8,9 +8,9 @@ const ProjectCard = ({projectImg,
     <>
        <div className="py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:h-96 lg:py-0 lg:my-32">
         {/* <!-- Project Image --> */}
-      <div className="w-full lg:relative lg:h-min">
+      <div className="w-full lg:relative lg:h-max">
   <img
-    className="w-full h-full object-cover shadow-lg lg:absolute"
+    className="w-full h-max object-cover shadow-lg lg:absolute"
     src={projectImg}
     alt="Example page from project"
   />
