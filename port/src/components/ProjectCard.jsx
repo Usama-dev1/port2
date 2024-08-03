@@ -6,15 +6,16 @@ const ProjectCard = ({projectImg,
                 ,projectUrl}) => {
   return (
     <>
-      <div className="w-full py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:h-96 lg:py-0 lg:my-32">
+      <div className="w-full py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:h-96 lg:py-0 lg:my-32">
   {/* <!-- Project Image --> */}
-<div className="w-full h-full>
+<div className="w-full h-96 lg:h-full lg:relative">
   <img
-    className="w-full h-full object-cover shadow-lg"
+    className="w-full h-full object-cover shadow-lg lg:absolute"
     src={projectImg}
     alt="Example page from project"
   />
 </div>
+
 
 
 
