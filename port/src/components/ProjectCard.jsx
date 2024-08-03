@@ -8,7 +8,7 @@ const ProjectCard = ({projectImg,
     <>
       <div className="py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:h-96 lg:py-0 lg:my-32">
         {/* <!-- Project Image --> */}
-        <div className="lg:relative lg:pb-2/3">
+        <div className="lg:relative lg:pb-1/3">
           <img
             className="shadow-lg md:w-full lg:h-full lg:object-cover lg:object-top lg:absolute"
             src={projectImg}
