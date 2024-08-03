@@ -21,7 +21,7 @@ const ProjectCard = ({projectImg,
 
 
         {/* <!-- Project Details --> */}
-        <div className="lg:h-full lg:flex lg:items-center">
+        <div className="lg:h-full lg:flex lg:items-start">
           <div className="lg:grid lg:auto-rows-min">
             {/* <!-- Project name --> */}
             <div className="inline-block relative">
