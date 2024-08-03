@@ -6,7 +6,7 @@ const ProjectCard = ({projectImg,
                 ,projectUrl}) => {
   return (
     <>
-       <div className="py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:h-[56.25%] lg:w-[90%] lg:py-0 lg:my-32">
+       <div className="py-12 md:pt-16 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:h-[56.25%] lg:w-[40%] lg:py-0 lg:my-32">
         {/* <!-- Project Image --> */}
         <div className="lg:relative lg:pb-2/3">
           <img
