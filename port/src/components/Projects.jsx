@@ -26,10 +26,10 @@ const Projects = () => {
     },
     {
      projectImg:project3,
-     projectTitle:"Custom Made Cleaning Website",
-     projectDesc:"Project Description 3",
-     projectExtra:"Project Extra info URL 3",
-     projectUrl:"Project URL 3"
+     projectTitle:"Custom Made Cleaning Services Website",
+     projectDesc:"Custom made Cleaning Services Website Made for Clients in HTML Tailwind and Reatjs ",
+     projectExtra:"Custom Website",
+     projectUrl:"https://preview.themeforest.net/item/cleeny-cleaning-services-repair-company-react-tailwind-template/full_screen_preview/52569732?_ga=2.173220451.1703226937.1722663276-1023737775.1722663276&_gac=1.188436314.1722671167.CjwKCAjwqre1BhAqEiwA7g9QhiTgfLBtD8RF4H3ikYtXuglFccG2iYmXFASWufneqqKhvh3nV75eeBoCYm8QAvD_BwE"
     },
     
   ]
