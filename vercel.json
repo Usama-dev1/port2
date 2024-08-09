@@ -5,7 +5,9 @@
       "use": "@vercel/static"
     }
   ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+ "rewrites": [
+  { "source": "/services", "destination": "/index.html" },
+  { "source": "/contact", "destination": "/index.html" },
+  { "source": "/(.*)", "destination": "/index.html" }
+]
 }
