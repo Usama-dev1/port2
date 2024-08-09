@@ -5,13 +5,11 @@
       "use": "@vercel/static"
     }
   ],
- "rewrites": [
-  { "source": "/services", "destination": "/" },
-  { "source": "/contact", "destination": "/" },
-  { "source": "/(.*)", "destination": "/" }
-]
-}
-{
+  "rewrites": [
+    { "source": "/services", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "routes": [
     {
       "src": "/[^.]+",
