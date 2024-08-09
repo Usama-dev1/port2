@@ -6,8 +6,16 @@
     }
   ],
  "rewrites": [
-  { "source": "/services", "destination": "/index.html" },
-  { "source": "/contact", "destination": "/index.html" },
-  { "source": "/(.*)", "destination": "/index.html" }
+  { "source": "/services", "destination": "/" },
+  { "source": "/contact", "destination": "/" },
+  { "source": "/(.*)", "destination": "/" }
 ]
+}
+{
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/"
+    }
+  ]
 }
