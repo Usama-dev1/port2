@@ -20,7 +20,7 @@ const ContactHome = () => {
        e.preventDefault();
        setIsSubmitting(true); // Disable the button when form is submitted
        try {
-         const response = await fetch("backendapi-five.vercel.app/send-email", {
+         const response = await fetch("nodemailerapi.vercel.app/send-email", {
            method: "POST",
            headers: {
              "Content-Type": "application/json",
