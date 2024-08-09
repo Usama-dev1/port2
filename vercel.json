@@ -1,12 +1,11 @@
 {
   "builds": [
     {
-      "src": "port/dist/**",
+      "src": "port/**/*",
       "use": "@vercel/static"
-    },
-    {
-      "src": "backend/index.js",
-      "use": "@vercel/node"
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
